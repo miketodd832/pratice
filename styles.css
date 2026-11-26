@@ -1,29 +1,26 @@
 #box {
   max-width: 1280 px;
+  width: 100%;
   min-width: fit-content;
   display: flex;
-  justify-content: space-between;
   gap: 40px
 }
 
 .column {
-  flex-grow: 1;
-  flex-basis: 0;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 
 .container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column-reverse;
-  max-width: calc(4 / 100%);
-  min-width: 0;
 }
 
 h1 {
   width: 100%;
+  box-sizing: border-box;
   color: red;
   background-color: blue;
 }
